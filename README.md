@@ -1,6 +1,4 @@
-
-
-````markdown
+`markdown
 # 📰 News Headline Generation using GRU
 
 This project demonstrates a deep learning approach to automatically generate news headlines based on article content using a GRU-based Recurrent Neural Network. The model is trained to predict the **first word** of the headline given the body of the news article.
@@ -45,9 +43,9 @@ This project demonstrates a deep learning approach to automatically generate new
 
 1. Clone this repository or download the `.ipynb` notebook.
 2. Install required libraries:
-   ```bash
+   bash
    pip install tensorflow pandas numpy scikit-learn
-````
+`
 
 3. Load the dataset (`news_headline_generator.csv`)
 4. Run the notebook cells sequentially.
@@ -59,15 +57,15 @@ This project demonstrates a deep learning approach to automatically generate new
 
 **Input:**
 
-```
+
 content_text: "the government announced a new plan to tackle climate change"
-```
+
 
 **Model Output:**
 
-```
+
 📰 Generated Headline: "government"
-```
+
 
 ---
 
@@ -98,5 +96,3 @@ MIT Academy of Engineering, Pune
 ## 📄 License
 
 This project is for academic use only.
-
-```
